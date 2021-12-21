@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	cryptoRand "crypto/rand"
@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func main() {
+func TourPackage() {
 	randN := time.Now().UnixNano()
 	rand.Seed(randN)
 	fmt.Println("My favorite first number is ", rand.Intn(10))
