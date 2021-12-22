@@ -16,4 +16,9 @@ func main() {
 	basics.TourVariablesWithInitializers()
 	basics.TourShortVariableDeclarations()
 	basics.TourBasicTypes()
+	basics.TourZero()
+	basics.TourTypeConversions()
+	basics.TourTypeInference()
+	basics.TourConstants()
+	basics.TourNumericConstants()
 }
