@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/anlue/go/tutorial/basics"
+	"github.com/anlue/go/tutorial/flowcontrol"
 )
 
 func main() {
@@ -21,4 +22,6 @@ func main() {
 	basics.TourTypeInference()
 	basics.TourConstants()
 	basics.TourNumericConstants()
+
+	flowcontrol.TourFor()
 }
