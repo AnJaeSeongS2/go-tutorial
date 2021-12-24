@@ -24,4 +24,8 @@ func main() {
 	basics.TourNumericConstants()
 
 	flowcontrol.TourFor()
+	flowcontrol.TourIf()
+	flowcontrol.TourIfWithAShortStatement()
+	flowcontrol.TourSwitch()
+	flowcontrol.TourDefer()
 }
