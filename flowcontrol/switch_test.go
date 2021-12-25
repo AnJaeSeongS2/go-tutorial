@@ -1,9 +1,10 @@
 package flowcontrol
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetGoodHourMessage(t *testing.T) {

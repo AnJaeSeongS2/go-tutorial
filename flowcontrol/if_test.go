@@ -1,8 +1,9 @@
 package flowcontrol
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestTourIf(t *testing.T) {
