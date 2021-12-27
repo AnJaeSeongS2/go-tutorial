@@ -65,11 +65,11 @@ func main() {
 	// methods.TourReader()
 	// methods.TourExerciseReader()
 
-	// concurrency.TourGoroutines()
-	// concurrency.TourChannels()
-	// concurrency.TourBufferedChannels()
-	// concurrency.TourRangeAndClose()
-	// concurrency.TourSelect()
-	// concurrency.TourDefaultSelection()
+	concurrency.TourGoroutines()
+	concurrency.TourChannels()
+	concurrency.TourBufferedChannels()
+	concurrency.TourRangeAndClose()
+	concurrency.TourSelect()
+	concurrency.TourDefaultSelection()
 	concurrency.TourMutexCounter()
 }
